@@ -1,0 +1,1101 @@
+Cycle cunter=1
+First cycle
+Time spent in secs 0.000000
+Time spent in Millisecs 0.000000
+Keeping thread 0 it at the same priority
+currentQueue: 0 Current thread: 0
+nextQueue: 0 Next Thread: 1
+
+====================
+Thread  1 trying to lock the mutex now
+checking if the mutex is already locked
+Thread  1 sucessfully locked the mutex!!
+Cycle cunter=2
+First cycle
+Time spent in secs 0.000000
+Time spent in Millisecs 0.000000
+changing the priority to queue 1 of thread 1
+currentQueue: 0 Current thread: 1
+nextQueue: 0 Next Thread: 2
+
+====================
+Thread  2 trying to lock the mutex now
+checking if the mutex is already locked
+Cycle cunter=3
+First cycle
+Time spent in secs 0.000000
+Time spent in Millisecs 0.000000
+Removing from ready queue and adding to the wait queue
+currentQueue: 0 Current thread: 2
+nextQueue: 0 Next Thread: 3
+
+====================
+Thread  3 trying to lock the mutex now
+Cycle cunter=4
+First cycle
+Time spent in secs 0.000000
+Time spent in Millisecs 0.000000
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 0 Next Thread: 4
+
+====================
+Thread  4 trying to lock the mutex now
+checking if the mutex is already locked
+Cycle cunter=5
+First cycle
+Time spent in secs 0.000000
+Time spent in Millisecs 0.000000
+Removing from ready queue and adding to the wait queue
+currentQueue: 0 Current thread: 4
+nextQueue: 0 Next Thread: 0
+
+====================
+Cycle cunter=6
+Time spent in secs 0.000000
+Time spent in Millisecs 0.001520
+changing the priority to queue 1 of thread 0
+currentQueue: 0 Current thread: 0
+nextQueue: 1 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=7
+Time spent in secs 0.000000
+Time spent in Millisecs 50.034442
+changing the priority to queue 2 of thread 1
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+currentQueue: 1 Current thread: 1
+nextQueue: 0 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=8
+Time spent in secs 0.000000
+Time spent in Millisecs 100.029705
+changing the priority to queue 1 of thread 1
+currentQueue: 0 Current thread: 1
+nextQueue: 1 Next Thread: 3
+
+====================
+This is the third Thread 3
+Cycle cunter=9
+Time spent in secs 0.000000
+Time spent in Millisecs 50.034282
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 1 Next Thread: 0
+
+====================
+Cycle cunter=10
+Time spent in secs 0.000000
+Time spent in Millisecs 0.002492
+changing the priority to queue 2 of thread 0
+currentQueue: 1 Current thread: 0
+nextQueue: 1 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=11
+Time spent in secs 0.000000
+Time spent in Millisecs 100.029333
+changing the priority to queue 2 of thread 1
+currentQueue: 1 Current thread: 1
+nextQueue: 2 Next Thread: 3
+
+====================
+This is the third Thread 3
+Cycle cunter=12
+Time spent in secs 0.000000
+Time spent in Millisecs 100.000750
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.000000
+Adding thread 0 back to the last queue
+Time spent in the last queue is 100.000750
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=13
+Time spent in secs 0.000000
+Time spent in Millisecs 150.031200
+changing the priority to queue 1 of thread 1
+currentQueue: 0 Current thread: 1
+nextQueue: 1 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=14
+Time spent in secs 0.000000
+Time spent in Millisecs 50.033627
+changing the priority to queue 2 of thread 1
+currentQueue: 1 Current thread: 1
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=15
+Time spent in secs 0.000000
+Time spent in Millisecs 0.002061
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=16
+Time spent in secs 0.000000
+Time spent in Millisecs 250.002609
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.002061
+Adding thread 0 back to the last queue
+Time spent in the last queue is 250.002609
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=17
+Time spent in secs 0.000000
+Time spent in Millisecs 150.029590
+changing the priority to queue 1 of thread 1
+currentQueue: 0 Current thread: 1
+nextQueue: 1 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=18
+Time spent in secs 0.000000
+Time spent in Millisecs 50.032079
+changing the priority to queue 2 of thread 1
+currentQueue: 1 Current thread: 1
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=19
+Time spent in secs 0.000000
+Time spent in Millisecs 0.004391
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=20
+Time spent in secs 0.000000
+Time spent in Millisecs 400.003813
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.004391
+Adding thread 0 back to the last queue
+Time spent in the last queue is 400.003813
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=21
+Time spent in secs 0.000000
+Time spent in Millisecs 150.036007
+changing the priority to queue 1 of thread 1
+currentQueue: 0 Current thread: 1
+nextQueue: 1 Next Thread: 1
+
+====================
+This is the first Thread 1
+Cycle cunter=22
+Time spent in secs 0.000000
+Time spent in Millisecs 50.034929
+changing the priority to queue 2 of thread 1
+currentQueue: 1 Current thread: 1
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=23
+Time spent in secs 0.000000
+Time spent in Millisecs 0.006797
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=24
+Time spent in secs 0.000000
+Time spent in Millisecs 550.005096
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.006797
+Adding thread 0 back to the last queue
+Time spent in the last queue is 550.005096
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 1
+
+====================
+This is the first Thread 1
+Thread  1 unlocked the mutex
+Cycle cunter=25
+Time spent in secs 0.000000
+Time spent in Millisecs 0.002200
+Check 1
+Cycle cunter=26
+Time spent in secs 0.000000
+Time spent in Millisecs 600.004246
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 0 Next Thread: 2
+
+====================
+Thread  2 sucessfully locked the mutex!!
+Cycle cunter=27
+Time spent in secs 0.000000
+Time spent in Millisecs 50.034735
+changing the priority to queue 1 of thread 2
+currentQueue: 0 Current thread: 2
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=28
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001435
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 1 Next Thread: 2
+
+====================
+This is the second Thread 2
+Cycle cunter=29
+Time spent in secs 0.000000
+Time spent in Millisecs 100.033426
+changing the priority to queue 2 of thread 2
+currentQueue: 1 Current thread: 2
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=30
+Time spent in secs 0.000000
+Time spent in Millisecs 0.009202
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.000000
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.009202
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 0 Next Thread: 2
+
+====================
+This is the second Thread 2
+Cycle cunter=31
+Time spent in secs 0.000000
+Time spent in Millisecs 150.021552
+changing the priority to queue 1 of thread 2
+currentQueue: 0 Current thread: 2
+nextQueue: 1 Next Thread: 2
+
+====================
+This is the second Thread 2
+Thread  2 unlocked the mutex
+Thread  2 EXITING!!!!!!!!
+Cycle cunter=32
+Time spent in secs 0.000000
+Time spent in Millisecs 0.002631
+Check 1
+Thread  4 sucessfully locked the mutex!!
+Cycle cunter=33
+Time spent in secs 0.000000
+Time spent in Millisecs 100.034534
+changing the priority to queue 1 of thread 4
+currentQueue: 0 Current thread: 4
+nextQueue: 1 Next Thread: 4
+
+====================
+This is the fourth Thread 4
+Cycle cunter=34
+Time spent in secs 0.000000
+Time spent in Millisecs 50.035390
+changing the priority to queue 2 of thread 4
+currentQueue: 1 Current thread: 4
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=35
+Time spent in secs 0.000000
+Time spent in Millisecs 100.000999
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.009202
+Adding thread 0 back to the last queue
+Time spent in the last queue is 100.000999
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 4
+
+====================
+This is the fourth Thread 4
+Cycle cunter=36
+Time spent in secs 0.000000
+Time spent in Millisecs 150.034836
+changing the priority to queue 1 of thread 4
+currentQueue: 0 Current thread: 4
+nextQueue: 1 Next Thread: 4
+
+====================
+This is the fourth Thread 4
+Cycle cunter=37
+Time spent in secs 0.000000
+Time spent in Millisecs 50.037835
+changing the priority to queue 2 of thread 4
+currentQueue: 1 Current thread: 4
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=38
+Time spent in secs 0.000000
+Time spent in Millisecs 0.012803
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=39
+Time spent in secs 0.000000
+Time spent in Millisecs 250.002033
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.012803
+Adding thread 0 back to the last queue
+Time spent in the last queue is 250.002033
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 4
+
+====================
+This is the fourth Thread 4
+Thread  4 unlocked the mutex
+Cycle cunter=40
+Time spent in secs 0.000000
+Time spent in Millisecs 0.002052
+Check 1
+Cycle cunter=41
+Time spent in secs 0.000000
+Time spent in Millisecs 0.013693
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=42
+Time spent in secs 0.000000
+Time spent in Millisecs 400.003468
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=43
+Time spent in secs 0.000000
+Time spent in Millisecs 0.015250
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 400.003468
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.015250
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=44
+Time spent in secs 0.000000
+Time spent in Millisecs 550.005526
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=45
+Time spent in secs 0.000000
+Time spent in Millisecs 0.017586
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=46
+Time spent in secs 0.000000
+Time spent in Millisecs 700.006953
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.017586
+Adding thread 0 back to the last queue
+Time spent in the last queue is 700.006953
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=47
+Time spent in secs 0.000000
+Time spent in Millisecs 850.009030
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=48
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001399
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=49
+Time spent in secs 0.000000
+Time spent in Millisecs 0.019537
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+YIELDED: Thread 3
+Cycle cunter=50
+Time spent in secs 0.000000
+Time spent in Millisecs 150.001422
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.019537
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.001422
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=51
+Time spent in secs 0.000000
+Time spent in Millisecs 0.021144
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=52
+Time spent in secs 0.000000
+Time spent in Millisecs 300.003488
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=53
+Time spent in secs 0.000000
+Time spent in Millisecs 0.023545
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.003488
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.023545
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=54
+Time spent in secs 0.000000
+Time spent in Millisecs 450.004996
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=55
+Time spent in secs 0.000000
+Time spent in Millisecs 0.025149
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=56
+Time spent in secs 0.000000
+Time spent in Millisecs 600.006547
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.025149
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.006547
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=57
+Time spent in secs 0.000000
+Time spent in Millisecs 750.007706
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=58
+Time spent in secs 0.000000
+Time spent in Millisecs 50.002138
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=59
+Time spent in secs 0.000000
+Time spent in Millisecs 0.027441
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=60
+Time spent in secs 0.000000
+Time spent in Millisecs 150.002681
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.027441
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.002681
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=61
+Time spent in secs 0.000000
+Time spent in Millisecs 0.029769
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=62
+Time spent in secs 0.000000
+Time spent in Millisecs 300.004072
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=63
+Time spent in secs 0.000000
+Time spent in Millisecs 0.031209
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.004072
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.031209
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=64
+Time spent in secs 0.000000
+Time spent in Millisecs 450.005326
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=65
+Time spent in secs 0.000000
+Time spent in Millisecs 0.032649
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=66
+Time spent in secs 0.000000
+Time spent in Millisecs 600.006617
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.032649
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.006617
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=67
+Time spent in secs 0.000000
+Time spent in Millisecs 750.008438
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=68
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001734
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=69
+Time spent in secs 0.000000
+Time spent in Millisecs 0.034980
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+YIELDED: Thread 3
+Cycle cunter=70
+Time spent in secs 0.000000
+Time spent in Millisecs 150.001838
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.034980
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.001838
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=71
+Time spent in secs 0.000000
+Time spent in Millisecs 0.037305
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=72
+Time spent in secs 0.000000
+Time spent in Millisecs 300.003126
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=73
+Time spent in secs 0.000000
+Time spent in Millisecs 0.038772
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.003126
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.038772
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=74
+Time spent in secs 0.000000
+Time spent in Millisecs 450.004590
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=75
+Time spent in secs 0.000000
+Time spent in Millisecs 0.040877
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=76
+Time spent in secs 0.000000
+Time spent in Millisecs 600.006765
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.040877
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.006765
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=77
+Time spent in secs 0.000000
+Time spent in Millisecs 750.007933
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=78
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001111
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=79
+Time spent in secs 0.000000
+Time spent in Millisecs 0.042939
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=80
+Time spent in secs 0.000000
+Time spent in Millisecs 150.001280
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.042939
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.001280
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=81
+Time spent in secs 0.000000
+Time spent in Millisecs 0.044450
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=82
+Time spent in secs 0.000000
+Time spent in Millisecs 300.002796
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=83
+Time spent in secs 0.000000
+Time spent in Millisecs 0.045935
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.002796
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.045935
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=84
+Time spent in secs 0.000000
+Time spent in Millisecs 450.005237
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=85
+Time spent in secs 0.000000
+Time spent in Millisecs 0.048020
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=86
+Time spent in secs 0.000000
+Time spent in Millisecs 600.007470
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.048020
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.007470
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=87
+Time spent in secs 0.000000
+Time spent in Millisecs 750.008570
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=88
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001156
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=89
+Time spent in secs 0.000000
+Time spent in Millisecs 0.050029
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+YIELDED: Thread 3
+Cycle cunter=90
+Time spent in secs 0.000000
+Time spent in Millisecs 150.001283
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.050029
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.001283
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=91
+Time spent in secs 0.000000
+Time spent in Millisecs 0.051526
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=92
+Time spent in secs 0.000000
+Time spent in Millisecs 300.003546
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=93
+Time spent in secs 0.000000
+Time spent in Millisecs 0.053521
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.003546
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.053521
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=94
+Time spent in secs 0.000000
+Time spent in Millisecs 450.005354
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=95
+Time spent in secs 0.000000
+Time spent in Millisecs 0.055434
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=96
+Time spent in secs 0.000000
+Time spent in Millisecs 600.006792
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.055434
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.006792
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=97
+Time spent in secs 0.000000
+Time spent in Millisecs 750.007978
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=98
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001585
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=99
+Time spent in secs 0.000000
+Time spent in Millisecs 0.057720
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=100
+Time spent in secs 0.000000
+Time spent in Millisecs 150.002163
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.057720
+Adding thread 0 back to the last queue
+Time spent in the last queue is 150.002163
+Adding thread 3 back to the last queue
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=101
+Time spent in secs 0.000000
+Time spent in Millisecs 0.059303
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=102
+Time spent in secs 0.000000
+Time spent in Millisecs 300.004638
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=103
+Time spent in secs 0.000000
+Time spent in Millisecs 0.061779
+changing the priority to queue 2 of thread 0
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 300.004638
+Adding thread 3 back to the last queue
+Time spent in the last queue is 0.061779
+Adding thread 0 back to the last queue
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=104
+Time spent in secs 0.000000
+Time spent in Millisecs 450.006563
+changing the priority to queue 2 of thread 3
+currentQueue: 2 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=105
+Time spent in secs 0.000000
+Time spent in Millisecs 0.063342
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+Cycle cunter=106
+Time spent in secs 0.000000
+Time spent in Millisecs 600.009049
+changing the priority to queue 2 of thread 3
+**************Maintainance Cycle***************
+Invoking inheretince
+Preventing starvation
+Time spent in the last queue is 0.063342
+Adding thread 0 back to the last queue
+Time spent in the last queue is 600.009049
+Adding thread 3 to the top queue
+currentQueue: 2 Current thread: 3
+nextQueue: 0 Next Thread: 3
+
+====================
+Cycle cunter=107
+Time spent in secs 0.000000
+Time spent in Millisecs 750.010232
+changing the priority to queue 1 of thread 3
+currentQueue: 0 Current thread: 3
+nextQueue: 1 Next Thread: 3
+
+====================
+Cycle cunter=108
+Time spent in secs 0.000000
+Time spent in Millisecs 50.001074
+changing the priority to queue 2 of thread 3
+currentQueue: 1 Current thread: 3
+nextQueue: 2 Next Thread: 0
+
+====================
+Cycle cunter=109
+Time spent in secs 0.000000
+Time spent in Millisecs 0.065152
+changing the priority to queue 2 of thread 0
+currentQueue: 2 Current thread: 0
+nextQueue: 2 Next Thread: 3
+
+====================
+YIELDED: Thread 3
+Thread  3 is done!
+Cycle cunter=110
+Time spent in secs 0.000000
+Time spent in Millisecs 93.219479
+Execution time in Milliseconds: 8094.684082
+Scheduler cycle counts 110
+Ending main!
